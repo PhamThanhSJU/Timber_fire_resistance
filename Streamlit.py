@@ -66,14 +66,15 @@ from sklearn import preprocessing
 from sklearn.preprocessing import MinMaxScaler
 scaler = MinMaxScaler()
 
+#df = pd.read_csv('Swelling_data_Thanh.csv')
+#X_ori = df[['Fe','Cr','Mn','Si','Co','Mo','Ni','C','Ti','N','B','P','S','Nb','Cu','Ta','Al','V','Mg','W','Zr','dr','tem','irrtype','disden','PreHe']].values
+#y = df['dose'].values
+
 df = pd.read_csv('Timber_Thanh_WERCS.csv')
 X_ori = df[['D','W','den','fc','E','L','C','P']].values
 y = df['R'].values
 
-feature_name = ['D','W',r'$\rho$',r'$f_{c}$','E','L','C','P']
-
-X = scaler.fit_transform(X_ori)
-
+X = scaler.fit_transform(X_ori)	
 X_train=X
 y_train=y
 

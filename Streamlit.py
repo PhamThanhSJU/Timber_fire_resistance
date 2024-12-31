@@ -5,7 +5,7 @@ import numpy as np
 import streamlit as st
 # Information
 st.sidebar.markdown("## Authors' information")
-st.sidebar.markdown("Authors: Thai-Hoang Nguyen,Van-Thanh Pham, Quang-Viet Vu, and Viet-Ngoc Pham")
+st.sidebar.markdown("Authors: Thai-Hoang Nguyen, Van-Thanh Pham, Quang-Viet Vu, and Viet-Ngoc Pham")
 st.sidebar.caption("Faculty of Civil Engineering, Thuyloi University, Vietnam")
 st.sidebar.caption("Emails: phamthanhwru@gmail.com (V-T Pham)")
 

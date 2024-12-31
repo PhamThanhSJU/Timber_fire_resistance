@@ -72,7 +72,8 @@ y = df['R'].values
 
 feature_name = ['D','W',r'$\rho$',r'$f_{c}$','E','L','C','P']
 
-X_train=X_ori
+X = X_ori
+X_train=X
 y_train=y
 
 n_estimators = 180

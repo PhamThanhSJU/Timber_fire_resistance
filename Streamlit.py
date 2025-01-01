@@ -108,5 +108,5 @@ if st.button("Predict"):
        my_bar.progress(percent_complete + 1, text=progress_text)
     time.sleep(1)
     my_bar.empty()
-    st.success(f"Your predicted fire resistance (minutes) obtained from FHO-CGB model is: {(fc_pred2)}")
+    st.success(f"Your predicted fire resistance (minutes) obtained from WERCS-FHO-CGB model is: {(fc_pred2)}")
 
